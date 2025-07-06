@@ -1,17 +1,17 @@
 import "./App.css";
 import { Footer } from "./component/Footer";
-import { Rowbar } from "./component/Rowbar";
+import { Row } from "./component/Row";
 import { Table } from "./component/Table";
 import { Topbar } from "./component/Topbar";
-
 function App() {
   return (
-    <>
+    <main>
       <Topbar />
-      <Rowbar />
+      {/* <Rowbar /> */}
+      <Row />
       <Table />
       <Footer />
-    </>
+    </main>
   );
 }
 

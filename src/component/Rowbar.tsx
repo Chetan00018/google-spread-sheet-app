@@ -9,6 +9,7 @@ import btn1 from "../assets/Button_Neutral.png";
 import seperator from "../assets/Separator--V--1px.png";
 import shape from "../assets/Shape (1).png";
 import toolbar from "../assets/Tool bar.png";
+
 export const Rowbar = () => {
   return (
     <div className="flex flex-row items-center w-[1440px] h-[48px] border-b border-[#EEEEEE] pt-[6px] pr-[8px] pb-[6px] pl-[8px] gap-[8px]">

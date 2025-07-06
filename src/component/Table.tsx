@@ -12,7 +12,7 @@ import shape2 from "../assets/Shape (2).png";
 export const Table = () => {
   return (
     <div>
-      <div className="w-[1440px] h-[840px] bg-[#F6F6F6]  ">
+      <div className="w-full h-[840px] bg-[#F6F6F6]  ">
         <table className="w-full ">
           <thead className="h-[32px]  hover:border-black">
             <tr>
@@ -182,14 +182,14 @@ export const Table = () => {
           </thead>
 
           <tbody>
-            <tr className="text-[13px] ">
+            <tr className="text-[13px] h-[32px] ">
               <td className="p-2 bg-white border "> 1</td>
               <td className="p-2 bg-white border">
                 Launch social media campaign pro...
               </td>
               <td className="p-2 bg-white border pl-9">15-11-2024</td>
               <td className="p-2 bg-white border pl-7">
-                <span className="rounded-lg bg-[#85640B] p-[3px]">
+                <span className="rounded-lg text-[#85640B] bg-[#FFF3D6] p-[3px]">
                   In -Process
                 </span>
               </td>
@@ -211,7 +211,7 @@ export const Table = () => {
               </td>
               <td className="p-2 bg-white border pl-9">10-11-2024</td>
               <td className="p-2 pl-6 bg-white border ">
-                <span className="rounded-lg bg-[#FF5733] p-[3px]">
+                <span className="rounded-lg text-[#FF5733] bg-[#E2E8F0] p-[3px]">
                   Need to start
                 </span>
               </td>
@@ -231,7 +231,7 @@ export const Table = () => {
               </td>
               <td className="p-2 bg-white border pl-9">23-07-2024</td>
               <td className="p-2 bg-white border pl-7">
-                <span className="rounded-lg bg-[#85640B] p-[3px]">
+                <span className="rounded-lg text-[#85640B] bg-[#FFF3D6] p-[3px]">
                   In -Process
                 </span>
               </td>
@@ -253,7 +253,7 @@ export const Table = () => {
               </td>
               <td className="p-2 bg-white border pl-9">05-10-2024</td>
               <td className="p-2 bg-white border pl-7">
-                <span className="rounded-lg bg-[#475569] p-[3px]">
+                <span className="rounded-lg text-[#475569] bg-[#D3F2E3] p-[3px]">
                   completed
                 </span>
               </td>

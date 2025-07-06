@@ -10,26 +10,38 @@ export const Footer = () => {
           className={`w-[111px] h-[44px] cursor-pointer   ${
             activeTab === "All Orders" &&
             " font-semibold border-t-2 border-t-[#57b562] bg-[#aec2b1]"
-          }  flex justify-center items-center`}
+          }  flex justify-center items-center cursor-pointer`}
           onClick={() => setActiveTab("All Orders")}
         >
           <span>All Orders</span>
         </div>
+
         <div
           onClick={() => setActiveTab("Pending")}
-          className="w-[94px] h-[44px] flex justify-center items-center"
+          className={`w-[94px] h-[44px] flex justify-center items-center  ${
+            activeTab === "Pending" &&
+            " font-semibold border-t-2 border-t-[#57b562] bg-[#aec2b1]"
+          }  flex justify-center items-center cursor-pointer`}
         >
           <span>Pending</span>
         </div>
+
         <div
           onClick={() => setActiveTab("Reviewed")}
-          className="w-[107px] h-[44px] flex justify-center items-center"
+          className={`w-[107px] h-[44px] flex justify-center items-center  ${
+            activeTab === "Reviewed" &&
+            " font-semibold border-t-2 border-t-[#57b562] bg-[#aec2b1]"
+          }  flex justify-center items-center cursor-pointer`}
         >
           <span>Reviewed</span>
         </div>
+
         <div
           onClick={() => setActiveTab("Arrived")}
-          className="w-[89px] h-[44px] flex justify-center items-center"
+          className={`w-[89px] h-[44px] flex justify-center items-center  ${
+            activeTab === "Arrived" &&
+            " font-semibold border-t-2 border-t-[#57b562] bg-[#aec2b1]"
+          }  flex justify-center items-center cursor-pointer`}
         >
           <span>Arrived</span>
         </div>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export const Footer = () => {
-  const [activeTab, setActiveTab] = useState("");
+  const [activeTab, setActiveTab] = useState("All Orders");
 
   return (
     <div className="footer   w-full h-[48px]  border-t bg-white pt-1  pr-[16px] pl-[36px] sticky  bottom-0 left-0 right-0 ">
